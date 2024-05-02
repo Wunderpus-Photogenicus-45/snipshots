@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SnippetCard from './SnippetCard';
+import SnippetCard from './snippetCard';
 
 const Overview = ({ dispatchNav, setSnippetAndNavigate }) => {
   const [allSnips, setAllSnips] = useState([]);
